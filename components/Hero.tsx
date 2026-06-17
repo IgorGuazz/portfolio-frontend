@@ -35,9 +35,9 @@ export default function Hero() {
 
         <div className="flex gap-4 mt-10">
 
-          <button className="bg-primary px-8 py-4 rounded-xl hover:bg-accent transition">
+          <a href="#projects" className="bg-primary px-8 py-4 rounded-xl hover:bg-accent transition">
             View Projects
-          </button>
+          </a>
 
           <a href="/CVIgorGuazzelliEnglish.pdf" download className="border border-primary px-8 py-4 rounded-xl hover:bg-white/10 transition">
             Resume
