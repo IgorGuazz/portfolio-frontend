@@ -23,10 +23,19 @@ const skills = [
 const technologies = [
   "React",
   "Next.js",
-  "TypeScript",
   "Tailwind",
-  "Prisma",
+  "TypeScript",
+  "JavaScript",
+  "Java",
   "Node.js",
+  "Python",
+  "PostgreSQL",
+  "Scrum",
+  "Git",
+  "Docker",
+  "Jira",
+  "Figma",
+  "VS Code"
 ];
 
 export default function Skills() {
@@ -66,7 +75,11 @@ export default function Skills() {
             </p>
 
             <p className="mt-6 text-slate-600 leading-8">
-              My main focus is building web applications with modern technologies and great user experiences.
+              I have experience working in agile teams, collaborating with designers and backend developers to deliver high-quality products.
+            </p>
+
+            <p className="mt-6 text-slate-600 leading-8">
+              Beyond coding, I enjoy programming competitions, playing music, tabletop RPGs and board games. I’m always curious, constantly learning and looking for new experiences both inside and outside tech.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-10">

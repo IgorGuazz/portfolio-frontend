@@ -9,7 +9,6 @@ export default function Footer() {
         <nav className="flex items-center gap-6">
           <a href="https://github.com/IgorGuazz" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">GitHub</a>
           <a href="https://linkedin.com/in/igor-guazzelli-a0b85316b/" target="_blank" rel="noopener noreferrer" className="transition hover:text-white">LinkedIn</a>
-          <a href="mailto:igor.guazzelli@gmail.com" className="transition hover:text-white">Email</a>
         </nav>
       </div>
     </footer>

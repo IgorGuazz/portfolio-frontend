@@ -9,7 +9,7 @@ import {
 
 export default function Hero() {
   return (
-    <div className="grid lg:grid-cols-2 gap-20 items-center py-20">
+    <section id="hero" className="grid lg:grid-cols-2 gap-20 items-center py-20">
 
       {/* Left */}
 
@@ -28,7 +28,7 @@ export default function Hero() {
         </h2>
 
         <p className="mt-8 text-slate-300 max-w-xl text-lg">
-          Building modern, accessible and elegant user experiences.
+          Fullstack developer focused on creating modern and engaging web experiences. I enjoy turning complex ideas into intuitive interfaces through clean code, performance-oriented solutions and thoughtful design, primarily working with React, Next.js and TypeScript.
         </p>
 
         {/* Buttons */}
@@ -39,9 +39,9 @@ export default function Hero() {
             View Projects
           </button>
 
-          <button className="border border-primary px-8 py-4 rounded-xl hover:bg-white/10 transition">
+          <a href="/CVIgorGuazzelliEnglish.pdf" download className="border border-primary px-8 py-4 rounded-xl hover:bg-white/10 transition">
             Resume
-          </button>
+          </a>
 
         </div>
 
@@ -55,13 +55,6 @@ export default function Hero() {
             className="text-slate-300 hover:text-accent hover:-translate-y-1 transition"
           >
             <FaLinkedin size={28} />
-          </a>
-
-          <a
-            href="mailto:igor.guazzelli@gmail.com"
-            className="text-slate-300 hover:text-accent hover:-translate-y-1 transition"
-          >
-            <MdEmail size={30} />
           </a>
 
           <a
@@ -116,7 +109,7 @@ export default function Hero() {
 
       </div>
 
-    </div>
+    </section>
   );
 }
 
