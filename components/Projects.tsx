@@ -4,7 +4,7 @@ const projects = [
     description: "Personal portfolio focused on modern UI and performance.",
     technologies: ["Next.js", "TypeScript", "Tailwind"],
     link: "#",
-    image: "/project-portfolio.png"
+    image: "/projects-portfolio.png"
   },
 
   {
@@ -12,7 +12,7 @@ const projects = [
     description: "Government Agency Portal.",
     technologies: ["Javascript", "WordPress", "Node.js", "PHP", "Docker"],
     link: "https://tcers.tc.br/fiscalizado/",
-    image: "/project-TCE.png"
+    image: "/projects-TCE.png"
   },
 
   {
