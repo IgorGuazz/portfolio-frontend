@@ -4,20 +4,23 @@ const projects = [
     description: "Personal portfolio focused on modern UI and performance.",
     technologies: ["Next.js", "TypeScript", "Tailwind"],
     link: "#",
+    image: "/project-portfolio.png"
   },
 
   {
-    title: "Task Manager",
-    description: "Task management platform with clean user experience.",
-    technologies: ["React", "Node", "Prisma"],
-    link: "#",
+    title: "TCE - RS",
+    description: "Government Agency Portal.",
+    technologies: ["Javascript", "WordPress", "Node.js", "PHP", "Docker"],
+    link: "https://tcers.tc.br/fiscalizado/",
+    image: "/project-TCE.png"
   },
 
   {
-    title: "Dashboard Analytics",
-    description: "Interactive dashboard with charts and real-time data.",
-    technologies: ["Next.js", "Chart.js", "PostgreSQL"],
+    title: "Projeto Sibila",
+    description: "Work in Progress: Management and Documentation System for Early Education Schools.",
+    technologies: ["Next.js", "React.js", "Node.js", "Nest.js", "Prisma", "PostgreSQL"],
     link: "#",
+    image: ""
   },
 ];
 
@@ -50,11 +53,17 @@ export default function Projects() {
 
               <div className="h-60 relative overflow-hidden">
 
-                <div className="absolute inset-0 bg-gradient-to-br from-background-dark via-background-secondary to-primary-dark" />
+                { project.image  ? (
+                  <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-gradient-to-br from-background-dark via-background-secondary to-primary-dark" />
 
-                <div className="absolute inset-0 flex items-center justify-center text-primary text-7xl font-bold opacity-20 group-hover:scale-110 transition">
-                  &lt;/&gt;
-                </div>
+                    <div className="absolute inset-0 flex items-center justify-center text-primary text-7xl font-bold opacity-20 group-hover:scale-110 transition">
+                      &lt;/&gt;
+                    </div>
+                  </>
+                )}
 
               </div>
 

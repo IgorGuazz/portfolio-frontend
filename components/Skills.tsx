@@ -29,13 +29,14 @@ const technologies = [
   "Java",
   "Node.js",
   "Python",
+  "Nest.js",
+  "Prisma",
   "PostgreSQL",
   "Scrum",
   "Git",
   "Docker",
   "Jira",
   "Figma",
-  "VS Code"
 ];
 
 export default function Skills() {
